@@ -29,6 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  lottie:
+  transition :
 
 
   # The following adds the Cupertino Icons fonts to your application.
@@ -62,6 +64,10 @@ flutter:
     - family: Hansan
       fonts :
         - asset: fonts/blackhansans_regular.ttf
+
+  assets:
+    - asset/14422-done.json
+    - asset/lottie/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
