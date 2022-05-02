@@ -25,10 +25,13 @@ class SplashView extends StatelessWidget {
       child: Center(
         child: Text(
           "쓰윽싹",
-          style: TextStyle(color: Colors.white, fontSize: 30),
+          style: TextStyle(
+              color: Colors.white,
+              fontSize: 30,
+              decoration: TextDecoration.none,
+              fontFamily: 'Noto'),
         ),
       ),
     ));
   }
 }
-
